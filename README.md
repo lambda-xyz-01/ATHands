@@ -3,3 +3,7 @@ The official implmentation of the paper: **ATHands: Anatomy-Aware Diffusion Mode
 
 ## Updates
 - The code will be available soon !
+
+
+![](./assets/method.jpg)
+
