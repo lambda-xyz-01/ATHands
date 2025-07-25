@@ -132,7 +132,7 @@ class ConstraintManager:
 	  self.mins = np.ones(self.num_joints*9) * np.inf
 	  self.maxs = np.ones(self.num_joints*9) * -np.inf
 
-	  for i in tqdm(range(dataset.real_len()), desc='calc data limits....'):
+	  for i in tqdm(range(dataset.real_len()), desc='Infer anatomical constraints from data....'):
 	  # for i in tqdm(range(100), desc='calc data limits....'):
 		  _, _, motion, _ = dataset.__getitem__(i)
 		  T, d = motion.shape
