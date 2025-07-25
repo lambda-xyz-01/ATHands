@@ -7,10 +7,8 @@ The official implmentation of the paper: **ATHands: Anatomy-Aware Diffusion Mode
 
 
 ```shell
-conda create -n AtHands python=3.9
+conda env create -f AtHands.yml
 conda activate AtHands
-conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 pytorch-cuda=11.7 -c pytorch -c nvidia
-pip install -r requirements.txt
 ```
 
 ## Datasets
