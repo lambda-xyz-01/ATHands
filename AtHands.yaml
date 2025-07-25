@@ -1,0 +1,22 @@
+name: AtHands
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.9
+  - pytorch=1.13.0
+  - pytorch-cuda=11.6
+  - torchvision=0.14.0
+  - cudatoolkit=11.0
+  - pip=23.3
+  - pip:
+    - einops
+    - tqdm
+    - spacy
+    - git+https://github.com/openai/CLIP.git
+    - scipy==1.9.3
+    - pyyaml==6.0.1
+    - omegaconf==2.0.6
+    - joblib==1.2.0
